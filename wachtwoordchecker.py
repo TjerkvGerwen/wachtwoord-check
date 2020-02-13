@@ -19,8 +19,6 @@ while x:
 
     final = str(punten)
     x = False
-
-
     print("je hebt "+ final +" van de 35 punten " + str(counter))
 
 
