@@ -4,13 +4,6 @@ x = True
 punten = 0
 
 while x:
-    if (len(password)<6):
-        punten = punten - 10
-    elif (len(password)>=6 and len(password)<=8):
-        punten = punten + 10
-    elif (len(password)>8):
-        punten = punten + 15
-
     kleineletters = len(re.findall("[a-z]", password))*0.5
     groteletter = len(re.findall("[A-Z]", password))*1.5
     cijfers = len(re.findall("[0-9]", password))*2
